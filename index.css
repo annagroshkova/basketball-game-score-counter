@@ -1,0 +1,67 @@
+body {
+    background-color: rgba(27, 36, 74, 1);
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    gap: 150px;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.team__team-name {
+    color: white;
+    font-family: 'Verdana';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.team__score {
+    width: 155px;
+    min-height: 120px;
+    background-color: black;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.team__points {
+    color: rgba(249, 79, 109, 1);
+    font-family: 'Cursed Timer ULiL';
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.team__add-points-btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team__add-points-button {
+    width: 45px;
+    height: 45px;
+    color: rgba(27, 36, 74, 1);
+    border: rgba(154, 171, 216, 1) 1px solid;
+    border-radius: 1px;
+}
+
