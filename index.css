@@ -7,17 +7,17 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 70%;
-    height: 70%;
+    height: 50%;
     margin: 0 auto;
-    gap: 150px;
+    gap: 100px;
 }
 
 .team {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 
@@ -38,6 +38,7 @@ body {
     background-color: black;
     border-radius: 5px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .team__points {
@@ -60,8 +61,13 @@ body {
 .team__add-points-button {
     width: 45px;
     height: 45px;
-    color: rgba(27, 36, 74, 1);
+    background-color: rgba(27, 36, 74, 0);
+    color: rgba(154, 171, 216, 1);
+    font-family: 'Cursed Timer ULiL';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
     border: rgba(154, 171, 216, 1) 1px solid;
-    border-radius: 1px;
+    border-radius: 5px;
 }
 
